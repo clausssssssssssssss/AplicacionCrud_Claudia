@@ -2,7 +2,7 @@ package Modelo
 
 data class DataClassTickest(
     val UUID: String,
-    val ticket: Int,
+    var ID_ticket: Int,
     val titulo: String,
     val descripcion: String,
     val Autor: String,
