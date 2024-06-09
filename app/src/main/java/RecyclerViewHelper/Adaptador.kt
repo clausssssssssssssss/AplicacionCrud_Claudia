@@ -85,7 +85,7 @@ class Adaptador(private var Datos: List<DataClassTickets>): RecyclerView.Adapter
                 val alertDialog = builder.create()
                 alertDialog.show()
       }
-            holder.imgEditarT.setOnClickListener {
+            holder.imgActualizarT.setOnClickListener {
                 val context = holder.itemView.context
                 val builder= AlertDialog.Builder(context)
                 builder.setTitle("Editar nombre")

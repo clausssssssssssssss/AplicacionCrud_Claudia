@@ -15,10 +15,10 @@
         android:textSize="28sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.516"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.079" />
+        app:layout_constraintVertical_bias="0.113" />
 
     <EditText
         android:id="@+id/txtContrasenaLO"
@@ -28,8 +28,11 @@
         android:hint="Ingrese su Contraseña"
         android:inputType="text"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="45dp"
-        tools:layout_editor_absoluteY="316dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.473" />
 
     <EditText
         android:id="@+id/txtCorreoLO"
@@ -39,8 +42,12 @@
         android:hint="Ingrese su Correo Electronico"
         android:inputType="text"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="45dp"
-        tools:layout_editor_absoluteY="208dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.541"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.317" />
 
     <TextView
         android:id="@+id/textView3"
@@ -49,8 +56,12 @@
         android:fontFamily="sans-serif-medium"
         android:text="Correo Electronico"
         android:textSize="16sp"
-        tools:layout_editor_absoluteX="59dp"
-        tools:layout_editor_absoluteY="174dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.249"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.253" />
 
     <TextView
         android:id="@+id/textView5"
@@ -59,8 +70,12 @@
         android:fontFamily="sans-serif-medium"
         android:text="Contraseña"
         android:textSize="16sp"
-        tools:layout_editor_absoluteX="59dp"
-        tools:layout_editor_absoluteY="283dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.179"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.403" />
 
     <Button
         android:id="@+id/btnIngresarLO"
@@ -68,8 +83,11 @@
         android:layout_height="60dp"
         android:backgroundTint="#8F2C2C"
         android:text="Ingresar"
-        tools:layout_editor_absoluteX="136dp"
-        tools:layout_editor_absoluteY="407dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.643" />
 
     <TextView
         android:id="@+id/textView2"
@@ -77,8 +95,12 @@
         android:layout_height="34dp"
         android:text="¿No tienes cuenta?"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="107dp"
-        tools:layout_editor_absoluteY="541dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.756" />
 
     <Button
         android:id="@+id/btnRegistrate"
@@ -86,7 +108,10 @@
         android:layout_height="59dp"
         android:backgroundTint="#852A2A"
         android:text="Registrate"
-        tools:layout_editor_absoluteX="136dp"
-        tools:layout_editor_absoluteY="587dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.872" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
