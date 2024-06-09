@@ -1,6 +1,6 @@
 package Modelo
 
-data class DataClassTickest(
+data class DataClassTickets(
     val UUID: String,
     var ID_ticket: Int,
     val titulo: String,

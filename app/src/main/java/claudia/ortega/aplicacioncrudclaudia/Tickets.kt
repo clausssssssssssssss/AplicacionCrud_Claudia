@@ -1,7 +1,7 @@
 package claudia.ortega.aplicacioncrudclaudia
 
 import Modelo.ClassConexion
-import Modelo.DataClassTickest
+import Modelo.DataClassTickets
 import RecyclerViewHelper.Adaptador
 import android.os.Bundle
 import android.widget.Button
@@ -52,12 +52,12 @@ class Tickets : AppCompatActivity() {
         }
         val rcvTickets = findViewById<RecyclerView>(R.id.rcvTickets)
         rcvTickets .layoutManager = LinearLayoutManager(this)
-        fun obtenerDatos(): List<DataClassTickest>{
+        fun obtenerDatos(): List<DataClassTickets>{
             val objConexion = ClassConexion().cadenaConexion()
 
             val statement = objConexion?.createStatement()
             val resulset = statement?.executeQuery("select * from TBticketsh")!!
-            val Tickets = mutableListOf<DataClassTickest>()
+            val Tickets = mutableListOf<DataClassTickets>()
             while (resulset.next()){
                 val UUID = resulset.getString("UUID")
                 val Ticketsss = resulset.getInt("ID_Ticket")
@@ -68,7 +68,7 @@ class Tickets : AppCompatActivity() {
                 val FechadeC =  resulset.getString("Creacion")
                 val Estado = resulset.getString("Estado")
                 val FechadeF = resulset.getString("Finalizacion")
-                val Ticket = DataClassTickest(UUID,Ticketsss, Titulo, Descripcion, Autor, Email, FechadeC, Estado, FechadeF)
+                val Ticket = DataClassTickets(UUID,Ticketsss, Titulo, Descripcion, Autor, Email, FechadeC, Estado, FechadeF)
             Tickets.add(Ticket)
             }
             return Tickets

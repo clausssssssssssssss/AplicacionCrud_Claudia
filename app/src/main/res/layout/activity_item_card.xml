@@ -19,20 +19,20 @@
         app:layout_constraintVertical_bias="0.0">
 
         <TextView
-            android:id="@+id/txtProductoCard"
-            android:layout_width="282dp"
+            android:id="@+id/txtTicketCard"
+            android:layout_width="280dp"
             android:layout_height="match_parent"
             android:text="TextView"
             android:textSize="40sp" />
 
         <ImageView
-            android:id="@+id/imgBorrar"
-            android:layout_width="67dp"
+            android:id="@+id/imgBorrarT"
+            android:layout_width="68dp"
             android:layout_height="match_parent"
             app:srcCompat="@drawable/baseline_delete_24" />
 
         <ImageView
-            android:id="@+id/imgActualizar"
+            android:id="@+id/imgActualizarT"
             android:layout_width="62dp"
             android:layout_height="match_parent"
             app:srcCompat="@drawable/baseline_update_24" />
